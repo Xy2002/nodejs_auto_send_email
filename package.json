@@ -2,7 +2,7 @@
   "name": "auto_send_email_to_gf",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "GPL3",
+  "license": "GPL-3.0",
   "dependencies": {
     "axios": "^0.26.1",
     "dotenv": "^16.0.0",
