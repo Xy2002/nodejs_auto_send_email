@@ -117,7 +117,7 @@ async function main() {
     }
 }
 
-if (process.env.debug) {
+if (process.env.debug === 'true') {
     main().catch(err => console.error(err))
 } else {
     cron.schedule(process.env.scheduleTime, async () => {
