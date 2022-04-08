@@ -110,7 +110,7 @@ async function main() {
         subject: "今天也是爱你的一天", // Subject line
         html, // html 内容, 如果设置了html内容, 将忽略text内容
     });
-    if (process.env.debug) {
+    if (process.env.debug === 'true') {
         console.log(info)
     } else {
         messagePush('邮件推送成功', `接受人:${info['accepted'].join(',')};发送人:${info['envelope']['from']};响应:${info['response']}`)
