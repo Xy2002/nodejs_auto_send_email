@@ -1,5 +1,4 @@
-# Auto Send Email To GirlFriend 
-每天给女友送上一点小惊喜, 生活甜蜜蜜  
+# Node.js Auto Send Email
 
 # 如何使用 (How to use)  
 ## 1.安装依赖  
